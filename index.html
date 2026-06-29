@@ -6,141 +6,205 @@
   <title>Dahamci Wijesiriwardana | Portfolio</title>
   <link rel="stylesheet" href="css/style.css" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
 </head>
 <body>
 
   <!-- Navigation -->
   <nav class="navbar">
     <div class="container nav-content">
-      <a href="#" class="logo">Dahamci Wijesiriwardana</a>
+      <a href="#" class="logo">DW<span class="logo-dot">.</span></a>
       <ul class="nav-links">
         <li><a href="#about">About</a></li>
         <li><a href="#education">Education</a></li>
-        <li><a href="#experiences">Experiences</a></li>
+        <li><a href="#experiences">Experience</a></li>
         <li><a href="#skills">Skills</a></li>
         <li><a href="#projects">Projects</a></li>
-        <li><a href="#contact">Contact</a></li>
+        <li><a href="#contact" class="nav-cta">Contact</a></li>
       </ul>
-      <button class="menu-toggle" aria-label="Toggle menu">☰</button>
+      <button class="menu-toggle" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
     </div>
   </nav>
 
   <!-- Hero -->
   <header class="hero">
+    <div class="hero-bg-grid"></div>
     <div class="container hero-content">
       <div class="hero-text">
-        <p class="tag">Hello, I'm</p>
-        <h1>K T D O Wijesiriwardana</h1>
-        <p class="subtitle">BSc ICT Undergraduate | University of Sri Jayewardenepura</p>
+        <span class="hero-eyebrow">Hello, I'm</span>
+        <h1>Dahamci<br /><span class="hero-surname">Wijesiriwardana</span></h1>
+        <p class="subtitle">BSc ICT Undergraduate &mdash; University of Sri Jayewardenepura</p>
         <div class="hero-buttons">
           <a href="#projects" class="btn btn-primary">View Projects</a>
-          <a href="#contact" class="btn btn-outline">Contact Me</a>
+          <a href="#contact" class="btn btn-ghost">Get in Touch</a>
         </div>
       </div>
       <div class="hero-image">
-        <img src="assets/profile.jpg" alt="Profile photo" />
+        <div class="avatar-ring">
+          <img src="assets/profile.jpg" alt="Dahamci Wijesiriwardana" />
+        </div>
+        <div class="hero-badge">
+          <span class="badge-dot"></span>
+          Open to Opportunities
+        </div>
       </div>
+    </div>
+    <div class="hero-scroll-hint">
+      <span>Scroll</span>
+      <div class="scroll-line"></div>
     </div>
   </header>
 
   <!-- About -->
   <section id="about" class="section">
-    <div class="container">
-      <h2 class="section-title">About Me</h2>
-      <p>
-       Hello! I'm an ICT undergraduate at the University of Sri Jayewardenepura with a passion for creating technology-driven solutions. I enjoy exploring web development, data analytics, and emerging technologies while building projects that strengthen my skills. My goal is to grow as an ICT professional and make meaningful contributions through innovation and continuous learning.
-
-      </p>
-    </div>
-  </section>
-
-  <!-- Education -->
-  <section id="education" class="section section-alt">
-    <div class="container">
-      <h2 class="section-title">Education</h2>
-      <div class="card">
-        <h3>BSc in Information Communication Technology</h3>
-        <p class="meta">University of Sri Jayewardenepura · 2025 – Present</p>
-        <p>Relevant coursework: DevOps, Web Development, Databases, etc.</p>
+    <div class="container about-layout">
+      <div class="section-label">01 — About</div>
+      <div class="about-body">
+        <h2 class="section-title">Crafting solutions<br/>through technology.</h2>
+        <p class="about-text">
+          I'm an ICT undergraduate at the University of Sri Jayewardenepura with a passion for creating technology-driven solutions. I enjoy exploring web development, data analytics, and emerging technologies while building projects that strengthen my skills.
+        </p>
+        <p class="about-text">
+          My goal is to grow as an ICT professional and make meaningful contributions through innovation and continuous learning.
+        </p>
       </div>
     </div>
   </section>
 
-<!-- Experiences -->
-<section id="experiences" class="section">
+  <!-- Education -->
+  <section id="education" class="section section-tinted">
     <div class="container">
-        <h2 class="section-title">Experiences</h2>
-        <div class="card">
-            <h3>Assistant Secretary</h3>
-            <p class="meta">IEEE Student Branch, University of Sri Jayewardenepura · 2025 – Present</p>
-            <p>
-                Serve as the Assistant Secretary of the IEEE Student Branch, supporting the planning and execution of
-                technical events, workshops, and student initiatives. Coordinate with committees, maintain
-                documentation, and contribute to organizing activities that promote professional and technical
-                development among students.
-            </p>
+      <div class="section-label">02 — Education</div>
+      <h2 class="section-title">Academic<br/>Background</h2>
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="timeline-marker"></div>
+          <div class="timeline-card">
+            <span class="tcard-date">2025 – Present</span>
+            <h3>BSc in Information Communication Technology</h3>
+            <p class="tcard-org">University of Sri Jayewardenepura</p>
+            <p>Relevant coursework: DevOps, Web Development, Databases, and more.</p>
+          </div>
         </div>
-
-        <div class="card">
-            <h3>ICT & Mathematics Tutor</h3>
-            <p class="meta">Private Tutor · 2025 – Present</p>
-            <p>
-                Conduct private tuition classes for students in Grades 6–11, teaching Information and Communication
-                Technology (ICT) and Mathematics. Prepare lesson plans, explain concepts clearly, and help students
-                improve their academic performance and problem-solving skills.
-            </p>
-        </div>
-
-        <div class="card">
-            <h3>Intern</h3>
-            <p class="meta">People's Bank · 2024 – 2025</p>
-            <p>
-                Completed an internship at People's Bank, gaining practical experience in a professional working
-                environment. Assisted with daily administrative and operational tasks while developing communication,
-                teamwork, organizational, and customer service skills.
-            </p>
-        </div>
+      </div>
     </div>
-</section>
+  </section>
+
+  <!-- Experiences -->
+  <section id="experiences" class="section">
+    <div class="container">
+      <div class="section-label">03 — Experience</div>
+      <h2 class="section-title">Where I've<br/>Been</h2>
+      <div class="timeline">
+
+        <div class="timeline-item">
+          <div class="timeline-marker"></div>
+          <div class="timeline-card">
+            <span class="tcard-date">2025 – Present</span>
+            <h3>Assistant Secretary</h3>
+            <p class="tcard-org">IEEE Student Branch · University of Sri Jayewardenepura</p>
+            <p>Support the planning and execution of technical events, workshops, and student initiatives. Coordinate with committees, maintain documentation, and contribute to activities that promote professional development among students.</p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-marker"></div>
+          <div class="timeline-card">
+            <span class="tcard-date">2025 – Present</span>
+            <h3>ICT &amp; Mathematics Tutor</h3>
+            <p class="tcard-org">Private Tutor</p>
+            <p>Conduct private tuition for students in Grades 6–11, teaching ICT and Mathematics. Prepare lesson plans and help students improve academic performance and problem-solving skills.</p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-marker"></div>
+          <div class="timeline-card">
+            <span class="tcard-date">2024 – 2025</span>
+            <h3>Intern</h3>
+            <p class="tcard-org">People's Bank</p>
+            <p>Gained practical experience in a professional banking environment. Assisted with daily administrative and operational tasks while developing communication, teamwork, and customer service skills.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
 
   <!-- Skills -->
-  <section id="skills" class="section">
+  <section id="skills" class="section section-tinted">
     <div class="container">
-      <h2 class="section-title">Skills</h2>
+      <div class="section-label">04 — Skills</div>
+      <h2 class="section-title">Tools &amp;<br/>Technologies</h2>
       <div class="skills-grid">
-        <span class="skill-tag">HTML</span>
-        <span class="skill-tag">CSS</span>
-        <span class="skill-tag">JavaScript</span>
-        <span class="skill-tag">Git</span>
-        <span class="skill-tag">GitHub</span>
-        <span class="skill-tag">GitHub Actions</span>
-        <span class="skill-tag">Python</span>
+        <div class="skill-item">
+          <span class="skill-icon">&#60;/&#62;</span>
+          <span>HTML</span>
+        </div>
+        <div class="skill-item">
+          <span class="skill-icon">✦</span>
+          <span>CSS</span>
+        </div>
+        <div class="skill-item">
+          <span class="skill-icon">JS</span>
+          <span>JavaScript</span>
+        </div>
+        <div class="skill-item">
+          <span class="skill-icon">⎇</span>
+          <span>Git</span>
+        </div>
+        <div class="skill-item">
+          <span class="skill-icon">⚙</span>
+          <span>GitHub</span>
+        </div>
+        <div class="skill-item">
+          <span class="skill-icon">▶</span>
+          <span>GitHub Actions</span>
+        </div>
+        <div class="skill-item">
+          <span class="skill-icon">🐍</span>
+          <span>Python</span>
+        </div>
       </div>
     </div>
   </section>
 
   <!-- Projects -->
-  <section id="projects" class="section section-alt">
+  <section id="projects" class="section">
     <div class="container">
-      <h2 class="section-title">Projects</h2>
+      <div class="section-label">05 — Projects</div>
+      <h2 class="section-title">Things I've<br/>Built</h2>
       <div class="projects-grid">
 
-        <article class="card project-card">
+        <article class="project-card">
+          <div class="project-number">01</div>
           <h3>Portfolio Website</h3>
-          <p>Personal portfolio deployed with GitHub Pages and CI/CD via GitHub Actions.</p>
+          <p>Personal portfolio deployed with GitHub Pages and CI/CD via GitHub Actions. Built from scratch with semantic HTML, modern CSS, and vanilla JS.</p>
+          <div class="project-tags">
+            <span>HTML</span><span>CSS</span><span>GitHub Actions</span>
+          </div>
           <div class="project-links">
-            <a href="https://github.com/YOUR_USERNAME/portfolio" target="_blank">GitHub</a>
-            <a href="#" target="_blank">Live Demo</a>
+            <a href="https://github.com/dahamci" target="_blank" class="proj-link">
+              GitHub <span class="link-arrow">↗</span>
+            </a>
+            <a href="#" target="_blank" class="proj-link">
+              Live Demo <span class="link-arrow">↗</span>
+            </a>
           </div>
         </article>
 
-        <article class="card project-card">
+        <article class="project-card project-card--accent">
+          <div class="project-number">02</div>
           <h3>Smart Waste Management System</h3>
-          <p>A collaborative web application designed to promote efficient waste management through smart technology. The platform aims to improve waste collection, monitoring, and user engagement by providing a digital solution for waste management challenges. Currently under development as part of a university group project.</p>
+          <p>A collaborative web application designed to promote efficient waste management through smart technology — improving collection, monitoring, and user engagement.</p>
+          <div class="project-tags">
+            <span>In Progress</span><span>Group Project</span>
+          </div>
           <div class="project-links">
-            
-            
+            <span class="proj-status">🚧 Under Development</span>
           </div>
         </article>
 
@@ -149,20 +213,50 @@
   </section>
 
   <!-- Contact -->
-  <section id="contact" class="section">
-    <div class="container">
-      <h2 class="section-title">Contact</h2>
+  <section id="contact" class="section section-tinted">
+    <div class="container contact-layout">
+      <div class="section-label">06 — Contact</div>
+      <h2 class="section-title">Let's<br/>Connect</h2>
+      <p class="contact-intro">I'm always open to new opportunities, collaborations, or just a good conversation about tech.</p>
       <ul class="contact-list">
-        <li>📧 Email: <a href="mailto:wijesiriwardanadahamci@gmail.com">wijesiriwardanadahamci@gmail.com</a></li>
-        <li>💼 LinkedIn: <a href="https://www.linkedin.com/in/dahamci-wijesiriwardana-9830732b3?utm_source=share_via&utm_content=profile&utm_medium=member_ios" target="_blank">linkedin.com/DahamciWijesiriwardana</a></li>
-        <li>🐙 GitHub: <a href="https://github.com/dahamci" target="_blank">https://github.com/dahamci</a></li>
+        <li>
+          <a href="mailto:wijesiriwardanadahamci@gmail.com" class="contact-link">
+            <span class="contact-icon">✉</span>
+            <div>
+              <span class="contact-label">Email</span>
+              <span class="contact-value">wijesiriwardanadahamci@gmail.com</span>
+            </div>
+            <span class="contact-arrow">↗</span>
+          </a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/in/dahamci-wijesiriwardana-9830732b3" target="_blank" class="contact-link">
+            <span class="contact-icon">in</span>
+            <div>
+              <span class="contact-label">LinkedIn</span>
+              <span class="contact-value">Dahamci Wijesiriwardana</span>
+            </div>
+            <span class="contact-arrow">↗</span>
+          </a>
+        </li>
+        <li>
+          <a href="https://github.com/dahamci" target="_blank" class="contact-link">
+            <span class="contact-icon">⌥</span>
+            <div>
+              <span class="contact-label">GitHub</span>
+              <span class="contact-value">github.com/dahamci</span>
+            </div>
+            <span class="contact-arrow">↗</span>
+          </a>
+        </li>
       </ul>
     </div>
   </section>
 
   <footer class="footer">
-    <div class="container">
-      <p>© 2026 Dahamci Wijesiriwardana</p>
+    <div class="container footer-inner">
+      <span class="logo">DW<span class="logo-dot">.</span></span>
+      <p>© 2026 Dahamci Wijesiriwardana — Built with passion.</p>
     </div>
   </footer>
 
