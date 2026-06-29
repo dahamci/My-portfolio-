@@ -22,11 +22,11 @@
 
 html { scroll-behavior: smooth; }
 
-body {
-  font-family: 'Inter', sans-serif;
-  background: var(--bg);
-  color: var(--text);
-  line-height: 1.6;
+body{
+font-family:'Inter',sans-serif;
+background:#ffffff;
+color:var(--text);
+line-height:1.7;
 }
 
 .container {
@@ -39,15 +39,24 @@ a { color: var(--primary); text-decoration: none; }
 a:hover { text-decoration: underline; }
 
 /* Navbar */
-.navbar {
-  position: sticky;
-  top: 0;
-  background: rgba(15, 23, 42, 0.95);
-  backdrop-filter: blur(8px);
-  border-bottom: 1px solid #334155;
-  z-index: 100;
-}
+.navbar{
 
+position:sticky;
+top:15px;
+
+width:90%;
+margin:auto;
+
+border-radius:20px;
+
+background:rgba(255,255,255,.8);
+
+backdrop-filter:blur(18px);
+
+box-shadow:var(--shadow);
+
+z-index:999;
+}
 .nav-content {
   display: flex;
   align-items: center;
