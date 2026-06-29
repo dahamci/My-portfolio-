@@ -732,7 +732,6 @@ a:hover { text-decoration: underline; }
     gap: 1rem;
   }
 
-  .avatar-ring { width: 190px; height: 190px; }
 
   .footer-inner { justify-content: center; text-align: center; }
 }
